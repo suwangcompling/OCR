@@ -2,7 +2,7 @@
 
 from PIL import Image
 import pytesseract
-file = pytesseract.image_to_string(Image.open('test01.JPG'))
+file = pytesseract.image_to_string(Image.open('test01.JPG')) # test image source: https://www.google.com/search?q=land+contract&espv=2&biw=1330&bih=755&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiCurTgkubKAhVLRyYKHUu5Au4Q_AUICCgD#tbm=isch&q=photocopy+of+land+contract&imgrc=Q7WAbwWFuHV_KM%3A
 
 ## SPELLING CHECKER I (Norvig-Spelling-Corrector)
 
